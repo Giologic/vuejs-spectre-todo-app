@@ -14,6 +14,7 @@
 import Todos from './components/Todos.vue';
 import axios from 'axios';
 import AddTodoModal from './components/AddTodoModal.vue';
+import uuidv4 from 'uuid/v4'
 
 export default {
   name: 'app',
@@ -45,7 +46,7 @@ export default {
       this.modalActive = false;
       let newTodo = {
         userId: 1,
-        id: this.todos.length + 1,
+        id: uuidv4(),
         title,
         completed: false
       }
