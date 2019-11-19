@@ -1,4 +1,4 @@
-# Todo App with Vue and Spectre.css
+# Todo App with VueJS and Spectre.css
 
 ## Project setup
 ```
