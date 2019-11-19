@@ -1,4 +1,4 @@
-# hello-world
+# Todo App with Vue and Spectre.css
 
 ## Project setup
 ```
