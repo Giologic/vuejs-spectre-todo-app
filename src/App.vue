@@ -12,7 +12,6 @@
 
 <script>
 import Todos from './components/Todos.vue';
-// import axios from 'axios';
 import AddTodoHeader from './components/AddTodoHeader.vue';
 import AlertEmpty from './components/AlertEmpty.vue';
 import uuidv4 from 'uuid/v4';
@@ -27,7 +26,6 @@ export default {
   data() {
     return {
       todos: [],
-      // loading: true,
       errored: false,
       alertEmptyIsActive: false,
     }
@@ -51,18 +49,7 @@ export default {
     alertEmpty() {
       this.alertEmptyIsActive = true
     }
-  },
-  // mounted() {
-  //   axios.get('https://jsonplaceholder.typicode.com/todos')
-  //   .then(response => {
-  //     this.todos = response.data.slice(0,5)
-  //   })
-  //   .catch(error => {
-  //     console.log(error)
-  //     this.errored = true
-  //   })
-  //   .finally(() => this.loading = false)
-  // }
+  }
 }
 </script>
 
