@@ -5,7 +5,7 @@
         <TodoItem v-bind:todo="todo" v-on:del-todo="$emit('del-todo',todo.id)"/>
       </div>
     </div>
-    <Jumbotron v-else></Jumbotron>
+    <Hero v-else></Hero>
     
   </div>
   
@@ -13,13 +13,13 @@
 
 <script>
 import TodoItem from './TodoItem.vue'
-import Jumbotron from './Jumbotron.vue'
+import Hero from './Hero.vue'
 
 export default {
   name: "Todos",
   components: {
     TodoItem,
-    Jumbotron
+    Hero
   },
   props: ["todos"]
 }
