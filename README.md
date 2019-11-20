@@ -24,3 +24,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Check the live demo here: https://musing-mccarthy-f27db5.netlify.com/
+
