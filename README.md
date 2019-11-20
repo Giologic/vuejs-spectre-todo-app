@@ -1,4 +1,6 @@
-# Todo App with VueJS and Spectre.css
+# Todo App with VueJS and Tailwind CSS
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5f76f712-b307-4fc0-8bc6-dec4d111554d/deploy-status)](https://app.netlify.com/sites/musing-mccarthy-f27db5/deploys)
 
 ## Project setup
 ```
